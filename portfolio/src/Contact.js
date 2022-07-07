@@ -3,10 +3,10 @@ import React from 'react';
 function Contact(){
     return(
         <section className='main-content'>
-          <article id="contact">
+          <div id="contact">
                <h1>Contact information</h1>
                <p>noora.hiltunen26@gmail.com</p>
-          </article>
+          </div>
           {/*<article id="comments">
                <div id="textContainer">
                     <p id="existingText">Hello there</p>
