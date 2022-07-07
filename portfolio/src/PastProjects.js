@@ -2,7 +2,7 @@ import React from "react";
 
 function PastProjects(){
     return(
-        <section name="pastProjects">
+        <section name="main-content">
           <h2><u>Former HTML/CSS-projects</u></h2>
           <ul>
           <li  className="project" name="rotating-space-objects">-Old project from Kuntoutussäätiö: <a href="../pastProjects/balls2.html"> Space</a></li>
