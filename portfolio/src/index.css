@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0f0f0f;
+  height: 100vh;
+  }
+
+h2 { 
+  background:#0f0f0f;
+  padding:5px;
+  text-align: center;
+  color:rgb(250, 243, 243);
+  }
+
+#navBar, #nav{
+  list-style-type: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color:#271b2c;
+  height:15vh;
+  align-items: center;
+}
+
+.nav-link a{
+  text-decoration: none;
+  color:rgb(250, 246, 246);
+  background-color: transparent; 
+}
+.nav-link{
+  padding: 20px;
+  background-color: transparent; 
+}
+.nav-link:hover{
+  background-color: rgb(164, 111, 207);
+  transition:0.6s ease;
+ 
+}
+#profile-picture{     
+  width:226px;
+  height: 325px;    
+  position:sticky;
+}
+.mainContent,.mainContent p{
+  display:flexbox;
+  flex-direction: column;
+  padding: 0% 10% 0% 10%;
+  background-color:#0f0f0f;
+  height:50vh;
+  color:#f5f4e2;
+  font-size: 20px;
+}
+
+footer{
+  position: absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  font-size:20px;
+  background-color:#f5f4e2; 
+}
+.project{
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+.project a{
+  text-decoration: none;
+  color:black;
+  padding:2px;
+  
+}
