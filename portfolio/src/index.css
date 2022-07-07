@@ -76,24 +76,17 @@ footer{
   font-size:20px;
   background-color:#f5f4e2; 
 }
-.pastProjects{
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top:5%;
-}
-.project{
+
+.project, .project a{
   text-decoration: none;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 24px;
   width:40%;
+  margin:auto;
+  color:#fff;
   
 }
-.project a{
-  text-decoration: none;
-  color:#ffffff;
-  
-}
+
 
 #contact{
   display: flex;
